@@ -1,0 +1,169 @@
+ 
+ body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Mukta', sans-serif;
+    background-color: #dfdfdf;
+ }
+ *,:before,:after{
+    box-sizing: border-box;
+ }
+
+ /* Commom styles */
+.mt-20 {
+    margin-top: 20px;
+}
+
+/* Form styles */
+.business-form-card {
+    margin: 55px auto;
+    max-width: 100%;
+    max-width: 1000px;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.form-heading {
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 700;
+    margin: 0;
+    padding: 10px 21px;
+    background-color: #c7e6ff;
+}
+.form-content .title {
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.form-content {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5f5;
+}
+.sub-title {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+}
+.consent-text {
+    font-size: 14px;
+    color: #333333;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+.card-footer {
+    padding: 15px;
+    text-align: left;
+}
+@media only screen and (max-width: 1024px) {
+    .business-form-card { 
+        margin: 55px 10px;
+    }
+
+  }
+
+/* MUI styles */
+.MuiInputBase-root .MuiInputBase-input{
+    font-size: 14px;
+}
+.MuiFormHelperText-root {
+    color :#f71629 !important;
+    margin: 4px 0  0 1px !important;
+    font-size: 12px !important;
+}
+.MuiFormLabel-root {
+    font-size: 14px !important;
+    color: #333333  !important
+}
+.MuiMenuItem-root {
+    font-size: 14px !important;
+    color: #333333  !important
+}
+
+/* Dialog styles */
+.MuiDialogTitle-root {
+    font-size: 15px !important;
+    color: #333333  !important
+}
+.MuiDialog-paper {
+    border-radius: 10px !important;
+}
+.customer-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #c4b9b9;
+}
+.customer-details-key {
+    font-size: 15px;
+    color: #333333;
+    font-weight: 600;
+    margin: 0;
+    text-transform: capitalize;
+}
+.customer-details-value {
+    font-size: 15px;
+    color: #333333;
+    font-weight: 400;
+    margin: 0;
+}
+.dialog-heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+    background-color: rgb(221 255 221);
+    border-bottom: 1px solid #ddd;
+}
+.success-text {
+    font-size: 18px;
+    color: #333333;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Table styles */
+
+.table-heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+    background-color: #c5c5c5;
+}
+
+.table-title {
+    font-size: 18px;
+    color: #333333;
+    font-weight: 600;
+    padding: 0 !important;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px 24px;
+}
+.MuiTableCell-root {
+    padding: 10px 45px !important;
+}
+.table-cell-key {
+    font-size: 14px !important;
+    color: #333333 !important;
+    font-weight: 700 !important;
+    font-family: "Mukta" !important;
+}
+.table-cell-value {
+    font-size: 14px !important;
+    color: #333333 !important;
+    font-weight: 500 !important;
+    font-family: "Mukta" !important;
+}
+.profit-text-color {
+    color: rgb(51, 194, 51) !important;
+}
+.loss-text-color {
+    color: #f71629 !important;
+}
